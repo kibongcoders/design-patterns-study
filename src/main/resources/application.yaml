@@ -1,0 +1,31 @@
+spring:
+  security:
+    user:
+      name: user
+      password: 1111
+  output:
+    ansi:
+      enabled: always
+  datasource:
+    hikari:
+      maximum-pool-size: 10
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/payments
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        format_sql: true
+        jdbc:
+          batch_size: 100
+        order_updates: true
+        order_inserts: true
+        show_sql: true
+        generate_statistics: true #쿼리 통계
+    openInView: false
+    defer-datasource-initialization: true
