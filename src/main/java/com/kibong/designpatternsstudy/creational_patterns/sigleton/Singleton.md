@@ -56,10 +56,16 @@ static inner 클래스 : Double-Checked Locking 하지 않으면서도 해결하
 
 복잡하게 사용하지 않고 하나의 인스턴스만 생성 가능
 
-이 모든 방법들 보다 더 나은 다양한 코딩 방법들이 존재한다.
+### [Enum을 사용하는 방법](Settings5.java)
 
+Enum을 사용하여 간단하게 싱글톤 패턴을 만들 수 있는데  
+Enum 자체에서 synchronized하게 생성되므로 Thread Safe하게 싱글톤 패턴을 사용가능하다.
 
-
+## 자바 및 스프링에서 사용하는 싱글톤 패턴
+- 자바 어플리케이션 실행 시(Runtime)
+- 스프링 빈 스코프 중 하나로 싱글톤 스코프 사용 가능
+- Object, Service, Repository 할 때도 사용 가능
+- 다른 디자인 패턴 구현체의 일부로 쓰이기도 함.
 
 
 
