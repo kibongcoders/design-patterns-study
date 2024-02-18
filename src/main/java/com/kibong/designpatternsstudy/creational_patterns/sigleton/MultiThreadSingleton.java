@@ -27,4 +27,9 @@ public class MultiThreadSingleton {
     public CompletableFuture<Settings4> staticInnerSingleton(){
         return CompletableFuture.completedFuture(Settings4.getInstance());
     }
+
+    @Async("threadPoolTaskExecutor")
+    public CompletableFuture<Settings5> enumSingleton(){
+        return CompletableFuture.completedFuture(Settings5.INSTANCE);
+    }
 }
