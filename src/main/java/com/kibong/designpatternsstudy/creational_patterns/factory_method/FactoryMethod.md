@@ -34,6 +34,11 @@
 ### 단점
 역활을 나누다 보면 클래스가 늘어나는 단점이 있다.
 
+## 스프링에서 찾아보는 팩토리 패턴
+- 기본으로 제공하는 Calendar가 팩토리 메서드 방식으로 제공하고 있다.
+- 스프링에서 제공하는 빈 팩토리
+  - ClassPathXmlApplicationContext 또는 AnnotationConfigApplicationContext이냐에 객체 생성이 달라짐
+
 ## 추가!
 ### Default 메소드
 자바 8버전 부터 인터페이스에 기본적인 구현체를 만들 수 있어  

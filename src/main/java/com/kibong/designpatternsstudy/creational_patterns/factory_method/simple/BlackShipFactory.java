@@ -1,12 +1,9 @@
 package com.kibong.designpatternsstudy.creational_patterns.factory_method.simple;
 
-import com.kibong.designpatternsstudy.creational_patterns.factory_method.Ship;
-import com.kibong.designpatternsstudy.creational_patterns.factory_method.ShipFactory;
-
-public class BlackShipFactory implements ShipFactory {
+public class BlackShipFactory implements ShipFactorySimple {
 
     @Override
-    public Ship createShip() {
+    public ShipSimple createShip() {
         return new BlackShip();
     }
 }

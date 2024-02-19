@@ -1,10 +1,9 @@
 package com.kibong.designpatternsstudy.creational_patters.factory_method;
 
-import com.kibong.designpatternsstudy.creational_patterns.factory_method.BlackShipFactory;
-import com.kibong.designpatternsstudy.creational_patterns.factory_method.Ship;
 import com.kibong.designpatternsstudy.creational_patterns.factory_method.injection.BlackInjectionShipFactory;
 import com.kibong.designpatternsstudy.creational_patterns.factory_method.injection.InjectionShipFactory;
 import com.kibong.designpatternsstudy.creational_patterns.factory_method.injection.WhiteInjectionShipFactory;
+import com.kibong.designpatternsstudy.creational_patterns.factory_method.simple.BlackShipFactory;
 import com.kibong.designpatternsstudy.creational_patterns.factory_method.simple.ShipSimple;
 import com.kibong.designpatternsstudy.creational_patterns.factory_method.simple.WhiteShipFactorySimple;
 import lombok.extern.slf4j.Slf4j;
@@ -22,7 +21,7 @@ public class FactoryMethodTest {
         ShipSimple whiteship = new WhiteShipFactorySimple().orderShip("Whiteship", "kibong@test.com");
         log.info("ship={}", whiteship);
 
-        Ship blackship = new BlackShipFactory().orderShip("Blackship", "kibong@test.com");
+        ShipSimple blackship = new BlackShipFactory().orderShip("Blackship", "kibong@test.com");
         log.info("ship={}", blackship);
     }
 
