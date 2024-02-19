@@ -2,7 +2,9 @@ package com.kibong.designpatternsstudy.creational_patters.factory_method;
 
 import com.kibong.designpatternsstudy.creational_patterns.factory_method.BlackShipFactory;
 import com.kibong.designpatternsstudy.creational_patterns.factory_method.Ship;
-import com.kibong.designpatternsstudy.creational_patterns.factory_method.WhiteShipFactory;
+import com.kibong.designpatternsstudy.creational_patterns.factory_method.injection.BlackInjectionShipFactory;
+import com.kibong.designpatternsstudy.creational_patterns.factory_method.injection.InjectionShipFactory;
+import com.kibong.designpatternsstudy.creational_patterns.factory_method.injection.WhiteInjectionShipFactory;
 import com.kibong.designpatternsstudy.creational_patterns.factory_method.simple.ShipSimple;
 import com.kibong.designpatternsstudy.creational_patterns.factory_method.simple.WhiteShipFactorySimple;
 import lombok.extern.slf4j.Slf4j;
@@ -22,5 +24,16 @@ public class FactoryMethodTest {
 
         Ship blackship = new BlackShipFactory().orderShip("Blackship", "kibong@test.com");
         log.info("ship={}", blackship);
+    }
+
+    @Test
+    @DisplayName("팩토리 메서드 의존성 주입으로 테스트")
+    public void createInjectionFactoryMethodTest() {
+        print(new WhiteInjectionShipFactory(), "Whiteship", "kibong@test.com");
+        print(new BlackInjectionShipFactory(), "Blackship", "kibong@test.com");
+    }
+
+    private void print(InjectionShipFactory injectionShipFactory, String name, String email) {
+        log.info("ship={}", injectionShipFactory.orderShip(name, email));
     }
 }
