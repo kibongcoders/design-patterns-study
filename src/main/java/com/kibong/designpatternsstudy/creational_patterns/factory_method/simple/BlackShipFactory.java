@@ -4,6 +4,6 @@ public class BlackShipFactory implements ShipFactorySimple {
 
     @Override
     public ShipSimple createShip() {
-        return new BlackShip();
+        return new BlackShipSimple();
     }
 }

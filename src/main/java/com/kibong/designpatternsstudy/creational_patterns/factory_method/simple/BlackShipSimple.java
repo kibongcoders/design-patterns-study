@@ -1,8 +1,8 @@
 package com.kibong.designpatternsstudy.creational_patterns.factory_method.simple;
 
-public class BlackShip extends ShipSimple {
+public class BlackShipSimple extends ShipSimple {
 
-    public BlackShip(){
+    public BlackShipSimple(){
         setName("blackship");
         setLogo("⚓");
         setColor("black");
