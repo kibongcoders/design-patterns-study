@@ -1,7 +1,4 @@
-package com.kibong.designpatternsstudy.creational_patterns.abstract_factory.before;
-
-import com.kibong.designpatternsstudy.creational_patterns.abstract_factory.simple.Anchor;
-import com.kibong.designpatternsstudy.creational_patterns.abstract_factory.simple.Wheel;
+package com.kibong.designpatternsstudy.creational_patterns.abstract_factory.simple;
 
 public class Ship {
 
