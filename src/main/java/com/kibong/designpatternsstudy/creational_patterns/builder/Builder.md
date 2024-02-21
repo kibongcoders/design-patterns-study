@@ -5,4 +5,4 @@
 
 빌더는 디렉터를 추가적으로 사용할 수 있는데
 직접 클라이언트와 콘크리트 빌더가 만나는 것이 아닌 반복되는 빌더를 디렉터에 숨겨 디렉터를 통해 가져올 수도 있다. 
-![BuilderPattern.png](..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FBuilderPattern.png)
+![BuilderPattern.png](BuilderPattern.png)
