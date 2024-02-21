@@ -1,4 +1,4 @@
-package com.kibong.designpatternsstudy.creational_patterns.abstract_factory.builder.before;
+package com.kibong.designpatternsstudy.creational_patterns.builder.before;
 
 import java.time.LocalDate;
 import java.util.List;

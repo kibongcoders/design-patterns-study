@@ -1,4 +1,4 @@
-package com.kibong.designpatternsstudy.creational_patterns.abstract_factory.builder.before;
+package com.kibong.designpatternsstudy.creational_patterns.builder.before;
 
 public class DetailPlan {
 
