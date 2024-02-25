@@ -23,3 +23,10 @@
 ### 단점
 - 디렉터 혹은 디렉터와 함께 빌더까지 만들어야 함
 - 쉽게 만들 수 있는데 구조가 복잡해짐 - 대부분의 디자인 패턴이 가지고 있는 단점
+ 
+## [실무에서 보이는 빌더 패턴](example)
+1. StringBuilder
+   - String Buffer와 비슷한데 이 둘의 차이는 syncronized를 쓰고 안쓰고의 차이다.
+   - String Builder가 syncronized를 쓰지 않는다.
+2. StreamBuilder
+3. @Builder
