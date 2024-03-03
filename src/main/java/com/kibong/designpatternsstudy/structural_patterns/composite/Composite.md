@@ -11,3 +11,6 @@
 - Leaf : Primitive 객체(가장 기본적인 단위)
 - Composite : Primitive한 타입들을 그룹으로 가져갈 객체,   
 Composite 객체는 여러개의 컴포넌트를 배열 또는 리스트로 가지고 있지만 타입 자체가 Component이다.
+
+## [Composite 패턴 적용하기](simple%2FComponent.java)
+[클라이언트 코드](..%2F..%2F..%2F..%2F..%2F..%2F..%2Ftest%2Fjava%2Fcom%2Fkibong%2Fdesignpatternsstudy%2Fstructural_patterns%2Fcomponent%2FComponentTest.java)
