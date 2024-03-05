@@ -24,3 +24,8 @@ properties에서 동적으로 빈을 생성해서 Decorator패턴을 사용할 �
 - 새로운 클래스를 만들지 않고 기존 기능을 조합할 수 있다.
 - SRP(Single Responsibility Principle)을 지킬 수 있다.
 - 컴파일 타임이 아닌 런타인에 동적으로 기능을 변경할 수 있다.
+- OCP(Open-Closed Principle)를 지킬 수 있다.
+- SOLID 원칙을 지킬 수 있다.
+
+### 단점
+- 데코레이터를 조합 하는 코드가 복잡할 수 있다.
