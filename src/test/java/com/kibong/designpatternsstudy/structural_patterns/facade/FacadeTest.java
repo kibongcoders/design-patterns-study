@@ -1,4 +1,4 @@
-package com.kibong.designpatternsstudy.structural_patterns;
+package com.kibong.designpatternsstudy.structural_patterns.facade;
 
 import com.kibong.designpatternsstudy.structural_patterns.facade.simple.EmailMessage;
 import com.kibong.designpatternsstudy.structural_patterns.facade.simple.EmailSender;
