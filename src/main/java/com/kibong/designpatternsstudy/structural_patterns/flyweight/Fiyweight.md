@@ -20,3 +20,7 @@
 - 어플리케이션에서 사용하는 메모리를 줄일 수 있다. 
 ### 단점
 - 코드의 복잡도가 증가한다. -> Pull Request에 잘 설명해 놓는 방법으로 해결해야한다.
+
+## 플라이 웨이트가 사용된 예시
+- valueof() 메소드 : time performance by caching frequently requested values.  
+자주 사용되는 값들은 캐싱을 해서 처리한다.
