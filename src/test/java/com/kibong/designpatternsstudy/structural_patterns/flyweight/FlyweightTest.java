@@ -1,4 +1,4 @@
-package com.kibong.designpatternsstudy.structural_patterns;
+package com.kibong.designpatternsstudy.structural_patterns.flyweight;
 
 import com.kibong.designpatternsstudy.structural_patterns.flyweight.simple.Character;
 import com.kibong.designpatternsstudy.structural_patterns.flyweight.simple.FontFactory;
