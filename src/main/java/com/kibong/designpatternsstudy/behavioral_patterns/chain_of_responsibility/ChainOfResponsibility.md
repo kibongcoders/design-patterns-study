@@ -17,3 +17,10 @@
 - [LoggingRequestHandler.java](simple%2FLoggingRequestHandler.java)
 - [PrintRequestHandler.java](simple%2FPrintRequestHandler.java)
 
+## 책임 연쇄 패턴 장단점
+### 장점
+- SRP(Single Responsibility Principle)를 지킬 수 있다.
+- 원하는대로 다양하게 사용 가능하다.
+
+### 단점
+- 연쇄적으로 처리하다보니 디버깅하기 어렵다.
