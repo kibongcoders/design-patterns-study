@@ -24,3 +24,8 @@
 
 ### 단점
 - 연쇄적으로 처리하다보니 디버깅하기 어렵다.
+
+## 사용되는 예시
+- Servlet Filter
+- Spring Security
+![ServleFilter.png](ServletFilter.png)
