@@ -8,3 +8,12 @@
 
 ## 책임 연쇄 패턴 구조
 ![ChainOfResponsibility.png](ChainOfResponsibility.png)
+
+## 책임 연쇄 패턴 적용해보기
+
+- [테스트 코드](..%2F..%2F..%2F..%2F..%2F..%2F..%2Ftest%2Fjava%2Fcom%2Fkibong%2Fdesignpatternsstudy%2Fbehavioral_patterns%2Fchain_of_responsibility%2FChainOfResponsibilityTest.java)
+- [Handler](simple%2FRequestHandler.java)
+- [AuthRequestHandler.java](simple%2FAuthRequestHandler.java)
+- [LoggingRequestHandler.java](simple%2FLoggingRequestHandler.java)
+- [PrintRequestHandler.java](simple%2FPrintRequestHandler.java)
+

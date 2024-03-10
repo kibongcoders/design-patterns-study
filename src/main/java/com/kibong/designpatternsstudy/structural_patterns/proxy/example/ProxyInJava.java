@@ -1,6 +1,7 @@
 package com.kibong.designpatternsstudy.structural_patterns.proxy.example;
 
-import me.whiteship.designpatterns._02_structural_patterns._12_proxy._02_after.DefaultGameService;
+
+import com.kibong.designpatternsstudy.structural_patterns.proxy.simple.DefaultGameService;
 
 import java.lang.reflect.Proxy;
 
@@ -12,8 +13,8 @@ public class ProxyInJava {
     }
 
     private void dynamicProxy() {
-        GameService gameServiceProxy = getGameServiceProxy(new DefaultGameService());
-        gameServiceProxy.startGame();
+        //GameService gameServiceProxy = getGameServiceProxy(new DefaultGameService());
+        //gameServiceProxy.startGame();
     }
 
     private GameService getGameServiceProxy(GameService target) {
