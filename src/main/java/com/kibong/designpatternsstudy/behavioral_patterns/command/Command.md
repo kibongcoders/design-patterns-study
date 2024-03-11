@@ -26,3 +26,12 @@
 - 커맨드 객체를 로깅, DB에 저장, 네크워크로 전송 등 다양한 방법으로 활용가능하다.
 ### 단점
 - 코드가 복잡하고 클래스가 많아진다.
+
+## 커맨드 패턴이 사용되는 곳
+- 자바
+  - Runnable, Callable
+  - Lambda
+  - 메소드 레퍼런스
+- 스프링 프레임워크
+  - SimpleJdbcInsert
+  - SimpleJdbcCall
