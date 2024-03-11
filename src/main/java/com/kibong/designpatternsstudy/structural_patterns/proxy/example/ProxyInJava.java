@@ -17,13 +17,13 @@ public class ProxyInJava {
         //gameServiceProxy.startGame();
     }
 
-    private GameService getGameServiceProxy(GameService target) {
-        return  (GameService) Proxy.newProxyInstance(this.getClass().getClassLoader(),
-                new Class[]{GameService.class}, (proxy, method, args) -> {
-                    System.out.println("O");
-                    method.invoke(target, args);
-                    System.out.println("ㅁ");
-                    return null;
-                });
-    }
+//    private GameService getGameServiceProxy(GameService target) {
+//        return  (GameService) Proxy.newProxyInstance(this.getClass().getClassLoader(),
+//                new Class[]{GameService.class}, (proxy, method, args) -> {
+//                    System.out.println("O");
+//                    method.invoke(target, args);
+//                    System.out.println("ㅁ");
+//                    return null;
+//                });
+//    }
 }

@@ -10,3 +10,19 @@
 ![Command.png](Command.png)
 - 요청 자체를 캡슐화 해서 그 명령을 수행하기 위한 모든 작업들을 커맨드라는 인터페이스에 캡슐화 한다.
 - invoker는 매우 추상화되어 있는 커맨드라는 인터페이스에 명령을 요청하기만 하면 된다.
+
+## 커맨드 패턴 만들어보기
+- [Button.java](simple%2FButton.java)
+- [Command.java](simple%2FCommand.java)
+- [GameEndCommand.java](simple%2FGameEndCommand.java)
+- [GameStartCommand.java](simple%2FGameStartCommand.java)
+- [LightOffCommand.java](simple%2FLightOffCommand.java)
+- [LightOnCommand.java](simple%2FLightOnCommand.java)
+
+## 커맨드 패턴의 장단점
+### 장점
+- 기존 코드를 변경하지 않고 새로운 커맨드를 만들 수 있다.
+- 수신자의 코드가 변경되어도 호출자의 코드는 변경되지 않는다.
+- 커맨드 객체를 로깅, DB에 저장, 네크워크로 전송 등 다양한 방법으로 활용가능하다.
+### 단점
+- 코드가 복잡하고 클래스가 많아진다.

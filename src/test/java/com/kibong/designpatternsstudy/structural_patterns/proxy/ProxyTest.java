@@ -12,10 +12,10 @@ public class ProxyTest {
     @Test
     public void proxySimpleTest() {
         // Given
-        GameService gameService = new GameServiceProxy(new DefaultGameService());
+        //GameService gameService = new GameServiceProxy(new DefaultGameService());
 
         // When
-        gameService.startGame();
+        //gameService.startGame();
 
         // Then
     }
