@@ -25,3 +25,13 @@
 - 일관된 인터페이스를 사용해 여러 형태의 집합 구조를 순회할 수 있다.
 ### 단점
 - 클래스가 늘어나고 복잡도가 증가한다.
+
+## Iterator Pattern이 사용되는 곳
+
+- Java
+    - java.util.Iterator
+    - java.util.Enumeration
+    - Java StAX(Streaming API for XML) Iterator 기반 API
+        - XMLStreamReader, XMLEventWriter
+- Spring
+    - CompositeIterator
