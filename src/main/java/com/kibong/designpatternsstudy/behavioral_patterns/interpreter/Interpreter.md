@@ -11,3 +11,17 @@
 ![Interpreter.png](Interpreter.png)
 - Contetext : 모든 Expression에서 공유하는 정보를 저장하는 클래스
 - Expression : 실질적으로 표현하는 문법을 나타네는 클래스
+
+## Interpreter Pattern 적용
+- [PostfixExpression](simple%2FPostfixExpression.java)
+- [PostfixParser](simple%2FPostfixParser.java)
+- [VariableExpression](simple%2FVariableExpression.java)
+- [PlusExpression](simple%2FPlusExpression.java)
+- [MinusExpression](simple%2FMinusExpression.java)
+
+## Interpreter Pattern 장단점
+### 장점
+- 자주 등장하는 문제 패턴을 언어와 문법으로 정의할 수 있다.
+- 기존 코드를 변경하지 않고 새로운 Expression을 추가할 수 있다.
+### 단점
+- 복잡한 문법을 표현하려면 Expression과 Parser가 복잡해진다.
