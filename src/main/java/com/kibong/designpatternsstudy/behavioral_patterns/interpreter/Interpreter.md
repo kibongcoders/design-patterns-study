@@ -25,3 +25,9 @@
 - 기존 코드를 변경하지 않고 새로운 Expression을 추가할 수 있다.
 ### 단점
 - 복잡한 문법을 표현하려면 Expression과 Parser가 복잡해진다.
+
+## Interpreter Pattern 예시
+- Java
+  - Pattern Matching
+- Spring
+  - SpEL(Spring Expression Language)
