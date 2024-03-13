@@ -23,3 +23,10 @@
 - 객체 상태가 바뀌어도 클라이언트 코드는 변경되지 않는다.
 ### 단점
 - 많은 정보를 저장하는 Mementor를 자주 상성하는 경우 메모리 사용량에 많은 영향을 줄 수 있다.
+
+## Java와 Spring에서 Memento Pattern 사용 예
+- Java
+  - java.io.Serializable
+    - 객체의 상태를 Byte Stream으로 변환하는 것을 Serializable(직렬화)이라고 한다.
+    - 사용 예(파일 저장, 네트워크 전송, JVM간의 객체 전송)
+    - 보낸 객체를 다시 복원하는 것을 Deserializable(역직렬화)이라고 한다.
