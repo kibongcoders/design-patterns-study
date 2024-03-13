@@ -15,3 +15,10 @@
 - [Mediator](simple%2FFrontDesk.java)
 - [ColleagueA(CleaningService)](simple%2FFrontDesk.java)
 - [ColleagueB(Restaurant)](simple%2FRestaurant.java)
+
+## Mediator Pattern 장단점
+### 장점
+- 컴포넌트 코들르 변경하지 않고 새로운 중재자를 만들어 사용할 수 있다.
+- 각각의 컴포넌트 코드들 보다 간결하게 유지할 수 있다.
+### 단점
+- 중재자가 많은 역할을 하게 되면 중재자가 복잡해질 수 있다.
