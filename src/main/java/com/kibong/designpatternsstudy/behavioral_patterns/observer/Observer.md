@@ -8,3 +8,7 @@
 - Observer : Subject의 상태가 변경되었을 때 호출되는 메소드를 제공하는 인터페이스
 - ConcreteObserver : Observer 인터페이스를 구현한 구체적인 클래스
 
+## Observer Pattern 적용
+- [Subject](simple%2FChatServer.java)
+- [Observer](simple%2FSubscriber.java)
+- [ConcreteObserver](simple%2FUser.java)
