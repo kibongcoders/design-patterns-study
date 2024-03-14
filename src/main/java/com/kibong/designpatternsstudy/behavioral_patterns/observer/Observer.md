@@ -12,3 +12,25 @@
 - [Subject](simple%2FChatServer.java)
 - [Observer](simple%2FSubscriber.java)
 - [ConcreteObserver](simple%2FUser.java)
+
+## Observer Pattern 장단점
+### 장점
+- Subject와 Observer를 느슨하게 결합할 수 있다.
+  - Subject와 Observer는 서로 독립적으로 확장할 수 있다.
+- Subject의 상태변경을 주기적으로 조회하지 않고 자동으로 감지할 수 있다.
+- 런타임에 옵저버를 추가하거나 삭제할 수 있다.
+### 단점
+- 복잡도가 증가한다.
+- 다수의 Oberserver 객체를 등록 이후 해지하지 않는 다면 메모리 누수가 발생할 수 있다.\
+
+## Java와 Spring에서 Observer Pattern 사용 예
+- Java
+  - java.util.Observer
+    - java.util.Observable
+    - 사용 예(이벤트 리스너, GUI 프로그래밍)
+  - PropertyChangeListener, PropertyChangeEvent
+  - Flow API
+  - SAX(Simple API for XML)
+- Spring
+  - ApplicationEvent, ApplicationListener
+
