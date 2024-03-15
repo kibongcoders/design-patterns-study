@@ -28,3 +28,10 @@
 ### 단점
 - 복잡도 증가
 - Client 코드가 구체적인 전략을 알아야 한다.
+
+## Java 및 Spring Framework에서 사용하는 Strategy Pattern
+- Java
+  - Comparator 
+- Spring Framework
+  - ApplicationContext
+  - PlatformTransactionManager
