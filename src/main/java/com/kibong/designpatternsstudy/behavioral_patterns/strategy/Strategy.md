@@ -13,3 +13,18 @@
 - Strategy : 알고리즘을 캡슐화한 Interface, Interface 여야지만 다형성을 사용할 수 있다.
 
 ## Strategy Pattern 구현
+- [Client](simple%2FClient.java)
+- [Context](simple%2FBlueLightRedLight.java)
+- [Strategy](simple%2FSpeed.java)
+- [ConcreteStrategy](simple%2FFast.java)
+- [ConcreteStrategy](simple%2FNormal.java)
+- [ConcreteStrategy](simple%2FFastest.java)
+
+## Strategy Pattern 장단점
+### 장점
+- 새로운 전략을 추가하더라도 기존 코드를 변경하지 않는다.(OCP Open-Closed Principle)
+- 상속 대신 위임을 사용할 수 있다.
+- 런타임에 전략을 변경할 수 있다.
+### 단점
+- 복잡도 증가
+- Client 코드가 구체적인 전략을 알아야 한다.
