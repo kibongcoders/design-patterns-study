@@ -18,3 +18,11 @@
 - [ConcreteVisitorA](simple%2FCircle.java)
 - [ConcreteVisitorB](simple%2FRectangle.java)
 - [ConcreteVisitorC](simple%2FTriangle.java)
+
+## Visitor Pattern 장단점
+### 장점
+- 기존 코드를 변경하지 않고 새로운 코드를 추가할 수 있다.
+- 추가 기능을 한 곳에 모아둘 수 있다.
+### 단점
+- 복잡하다
+- 새로운 Element를 추가할 때 마다 Visitor 코드를 변경해야한다.
