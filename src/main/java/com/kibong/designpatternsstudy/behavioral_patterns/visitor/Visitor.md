@@ -9,3 +9,12 @@
 ## Visitor Pattern Structure
 ![Visitor.png](Visitor.png)
 - Double Dispatch : 구체적인 메소드를 찾아서 배치하는 과정
+
+## Visitor Pattern 적용
+- [Element](simple%2FShape.java)
+- [ElementA](simple%2FPhone.java)
+- [ElementB](simple%2FWatch.java)
+- [Visitor](simple%2FDevice.java)
+- [ConcreteVisitorA](simple%2FCircle.java)
+- [ConcreteVisitorB](simple%2FRectangle.java)
+- [ConcreteVisitorC](simple%2FTriangle.java)
