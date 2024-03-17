@@ -26,3 +26,12 @@
 ### 단점
 - 복잡하다
 - 새로운 Element를 추가할 때 마다 Visitor 코드를 변경해야한다.
+
+## Java, Spring에서의 사용되는 Visitor Pattern
+- Java
+  - FileVisitor
+  - SimpleFileVisitor
+  - AnnotationValueVisitor
+  - ElementVisitor
+- Spring
+  - BeanDefinitionVisitor
